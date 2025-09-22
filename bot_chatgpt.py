@@ -3,8 +3,8 @@ from telegram import Update
 from telegram.ext import Updater, MessageHandler, Filters, CallbackContext, CommandHandler
 import openai
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "MASUKKAN_BOT_TOKEN_DI_SINI")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "MASUKKAN_OPENAI_KEY_DI_SINI")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8349267043:AAG1buzO50UhIWdi3qxT8iUNM51LagC-dRQ")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "sk-abcdef1234567890abcdef1234567890abcdef12")
 openai.api_key = OPENAI_API_KEY
 
 logging.basicConfig(level=logging.INFO)
